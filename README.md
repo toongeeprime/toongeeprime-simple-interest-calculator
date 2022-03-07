@@ -9,3 +9,4 @@ Displays both total amount (principal plus interest) and interest-only amount.
 ### Shortcode
 \[toongeeprime_SI_calculator\]
 
+![toongeeprime-simple-interest-calculator](https://user-images.githubusercontent.com/39152476/157036383-ebd7ef7d-d545-4279-acbb-185748c1477d.png)
