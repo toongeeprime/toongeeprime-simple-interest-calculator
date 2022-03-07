@@ -1,0 +1,27 @@
+/**
+ *	CALCULATOR CSS
+ */
+
+#prime_calculator{max-width:400px;margin:auto;font-size:19px;background:#fff;box-shadow:0 7px 12px rgba(0,0,0,0.3);overflow:hidden;}
+#calcHdr{padding:5px 20px 0;text-align:center;z-index:10;}
+#prime_calculator #calcHdr h3{font-size:20px;}
+#calc_screen{font-size:30px;background:#fff;color:#333;transition:all 0.2s;max-height:0;overflow:hidden;}
+#calc_screen input{text-align:center;}
+#calc_screen.prime_on{max-height:100vh;padding:10px;margin-bottom:20px;}
+#calc_inputs{padding:5px 20px 20px;background:#0d0f4a;color:#fff;}
+.calc_inps{margin:20px 0;}
+#prime_calculator select,#prime_calculator input{border:0;padding:5px 10px;width:100%;max-width:100%;border-radius:0;}
+#prime_calculator select{padding:7px 10px  10px;line-height:1.25;font-size:17px;
+/* background-position-x:500px; */
+}
+#prime_calculator label{display:block;font-size:15px;}
+#prime_calculator .flex{display:flex;align-items:flex-end;margin-top:-20px;}
+#prime_calculator .btn{text-align:center;background:#cd190f;font-size:19px;padding:12px;cursor:pointer;}
+.strch span{color:#333;position:relative;}
+.rate{position:relative;}
+.rate span{position:absolute;top:28px;right:30px;}
+.duration,.time{width:50%;}
+#ttlhd{text-align:center;line-height:1;margin:10px 0;}
+#interestAmt{font-size:17px;}
+#prime_calculator em{display:block;font-size:12px;margin:10px 0 -10px;text-align:center;}
+.results{font-weight:600;}
