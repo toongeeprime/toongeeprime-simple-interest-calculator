@@ -3,7 +3,7 @@
  */
 
 #prime_calculator{max-width:400px;margin:auto;font-size:19px;background:#fff;box-shadow:0 7px 12px rgba(0,0,0,0.3);overflow:hidden;}
-#calcHdr{padding:5px 20px 0;text-align:center;z-index:10;}
+#calcHdr{padding:5px 20px;text-align:center;z-index:10;cursor:pointer;}
 #prime_calculator #calcHdr h3{font-size:20px;}
 #calc_screen{font-size:30px;background:#fff;color:#333;transition:all 0.2s;max-height:0;overflow:hidden;}
 #calc_screen input{text-align:center;}

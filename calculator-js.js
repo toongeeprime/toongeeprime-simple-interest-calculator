@@ -3,8 +3,14 @@
  */
 
 ( function($) {
+
 $( '.calcgetResult' ).on( 'click', prime_calcInterest );
-$( '#calcHdr' ).click( function(){ $( '#prime_calculator' ).toggleClass( 'calc_on' ); } );
+
+$( '#calcHdr' ).click( function() {
+	$( '#prime_calculator' ).toggleClass( 'calc_on' );
+	$( '#calc_screen' ).removeClass( 'prime_on' );
+} );
+
 $( '#prime_calculator' ).on( 'keyup keypress', function( ev ) {
 	if ( ev.which === 13 ) {
 		ev.preventDefault();
@@ -44,9 +50,7 @@ let princpl	=	parseInt( initAmt ),
 
 
 $( '#prime_calculator' ).ready( function() {
-
 	$( "#calc_init_amount" ).val( parseInt( $( "#calc_init_amount" ).val() ) );
-
 }
 
 );
